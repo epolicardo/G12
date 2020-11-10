@@ -54,7 +54,7 @@ namespace MicaNails.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,CodProducto,NombreProducto,Marca,Cantidad,Descripcion")] Productos productos)
+        public async Task<IActionResult> Create(Productos productos)
         {
             if (ModelState.IsValid)
             {
