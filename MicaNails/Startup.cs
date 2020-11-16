@@ -28,6 +28,7 @@ namespace MicaNails
             services.AddControllersWithViews();
             services.AddDbContext<DataContext>(
              options => options.UseSqlServer(Configuration.GetConnectionString("Conexion")));
+            
 
         }
 

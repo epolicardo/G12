@@ -18,7 +18,7 @@ namespace MicaNails.Data
 
         }
 
-        public DbSet<Productos> Clientes { get; set; }
+        public DbSet<Productos> Productos { get; set; }
 
     }
 }
